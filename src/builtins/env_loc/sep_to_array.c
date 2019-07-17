@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2019
-** sep
-** File description:
-** sep
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T13:28:05+02:00
+ */
 
 #include "mysh.h"
 #include "lib.h"
@@ -39,14 +39,11 @@ char **sep_to_array(char *str, char s)
     char *str1 = malloc(sizeof(char) * s_str1 + 1);
     char *str2 = malloc(sizeof(char) * s_str2 + 1);
 
-    for (int i = 0; i < s_str1; i++) {
+    for (int i = 0; i < s_str1; i++)
         str1[i] = str[i];
-    }
     str1[s_str1] = '\0';
-    for (int i = s_str1 + 1, j = 0;
-    s_str2 != 0 && str[i] != '\0'; i++, j++) {
+    for (int i = s_str1 + 1, j = 0; s_str2 != 0 && str[i] != '\0'; i++, j++)
         str2[j] = str[i];
-    }
     set_array(str1, str2, array, s_str2);
     return (array);
 }

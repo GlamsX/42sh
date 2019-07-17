@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2019
-** fusion.c
-** File description:
-** fusion.c
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T13:57:50+02:00
+ */
 
 #include "lib.h"
 

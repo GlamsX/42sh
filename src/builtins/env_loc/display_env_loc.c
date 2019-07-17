@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2019
-** display
-** File description:
-** display
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T13:32:31+02:00
+ */
 
 #include "mysh.h"
 #include "lib.h"
@@ -13,10 +13,9 @@
 void display_last_command(main_list_t *list)
 {
     my_printf("_\t");
-    if (list->history.end->prev != NULL)
-        my_printf("%s\n\n", list->history.end->prev->data);
-    else
-        my_printf("\n");
+    (list->history.end->prev != NULL) ?
+    my_printf("%s\n\n", list->history.end->prev->data) :
+    my_printf("\n");
 }
 
 int display_env_loc(main_list_t *list)

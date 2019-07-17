@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2018
-** PSU_42sh_2018
-** File description:
-** print_tree.c
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T13:55:04+02:00
+ */
 
 #include "utils_functions.h"
 #include "struct_tree.h"

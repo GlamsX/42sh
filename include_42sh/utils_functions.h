@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2019
-** utils.h
-** File description:
-** utils.h
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T14:01:24+02:00
+ */
 
 #ifndef UTILS_H_
 #define UTILS_H_

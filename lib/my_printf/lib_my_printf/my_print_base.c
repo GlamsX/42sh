@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2018
-** printyf
-** File description:
-** print base of numbers
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T13:59:51+02:00
+ */
 
 #include "../my_printf.h"
 

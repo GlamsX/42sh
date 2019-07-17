@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2019
-** lib.h
-** File description:
-** lib.h
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T14:02:02+02:00
+ */
 
 #ifndef LIB_H_
 #define LIB_H_

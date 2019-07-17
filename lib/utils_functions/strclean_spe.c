@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2019
-** clean
-** File description:
-** clean
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T13:56:55+02:00
+ */
 
 #include <stdlib.h>
 #include <string.h>

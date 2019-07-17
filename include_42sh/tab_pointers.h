@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2019
-** tab_pointers.h
-** File description:
-** tab_pointers.h
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T14:01:30+02:00
+ */
 
 #ifndef TAB_POINTERS_H_
 #define TAB_POINTERS_H_

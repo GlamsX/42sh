@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2018
-** prihntf
-** File description:
-** print long numbers and long long and unsigned
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T13:59:46+02:00
+ */
 
 #include "../my_printf.h"
 

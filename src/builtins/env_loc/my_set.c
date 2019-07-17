@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2019
-** local
-** File description:
-** local
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T13:31:53+02:00
+ */
 
 #include "mysh.h"
 #include "lib.h"
@@ -15,33 +15,26 @@ void add_env_local(main_list_t *list, char *name, char *value)
     env_loc_t *elem = malloc(sizeof(env_loc_t));
 
     elem->var = strcopy_pos(name, 0);
-    if (value == NULL)
-        elem->val = NULL;
-    else
-        elem->val = strcopy_pos(value, 0);
+    (value == NULL) ? (elem->val = NULL) : (elem->val = strcopy_pos(value, 0));
     add_elem(list->env_loc, (void *)elem);
 }
 
 int is_exist(char *str, main_list_t *list)
 {
-    for (int i = 0;  i < list->env_loc->nb_elem; i++) {
+    for (int i = 0;  i < list->env_loc->nb_elem; i++)
         if (strcmp(str, ((env_loc_t *)list->env_loc->array[i])->var) == 0)
             return (true);
-    }
     return (false);
 }
 
 void update_value_env_loc(char *str, char *value, main_list_t *list)
 {
-    for (int i = 0;  i < list->env_loc->nb_elem; i++) {
-        if (strcmp(str, ((env_loc_t *)list->env_loc->array[i])->var) == 0) {
-            if (value == NULL)
-                ((env_loc_t *)list->env_loc->array[i])->val = NULL;
-            else
-                ((env_loc_t *)list->env_loc->array[i])->val
-                = strcopy_pos(value, 0);
-        }
-    }
+    for (int i = 0;  i < list->env_loc->nb_elem; i++)
+        if (strcmp(str, ((env_loc_t *)list->env_loc->array[i])->var) == 0)
+            (value == NULL) ?
+            (((env_loc_t *)list->env_loc->array[i])->val = NULL) :
+            (((env_loc_t *)list->env_loc->array[i])->val =
+            strcopy_pos(value, 0));
 }
 
 int my_set(main_list_t *list, tree_t *tree, char **input)

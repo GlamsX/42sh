@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2019
-** PSU_minishell1_2018
-** File description:
-** minishell1
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T13:58:36+02:00
+ */
 
 #ifndef MY_PRINTF_
 #define MY_PRINTF_

@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2019
-** struct_list.h
-** File description:
-** struct_list.h
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T14:01:40+02:00
+ */
 
 #ifndef STRUCT_LIST_H_
 #define STRUCT_LIST_H_

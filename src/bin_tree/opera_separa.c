@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2018
-** PSU_42sh_2018
-** File description:
-** opera_separa.c
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T13:54:46+02:00
+ */
 
 #include "lib.h"
 #include "struct_tree.h"
@@ -15,9 +15,8 @@ char **opera_separa(char *input, char *opera)
     int i = 0;
     int j = 0;
 
-    if ((opera_pos = detect_opera(input, opera)) <= 0) {
+    if ((opera_pos = detect_opera(input, opera)) <= 0)
         return (NULL);
-    }
     sem_col_branch[0] = malloc(sizeof(char) * opera_pos + 1);
     sem_col_branch[1] = malloc(sizeof(char) * (strlen(input) - opera_pos));
     for (; i < opera_pos; i += 1)

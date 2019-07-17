@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2019
-** struct_tree.h
-** File description:
-** struct_tree.h
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T14:01:35+02:00
+ */
 
 #ifndef STRUCT_TREE_H_
 #define STRUCT_TREE_H_

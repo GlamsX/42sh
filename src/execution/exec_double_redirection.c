@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2019
-** PSU_minishell2_2018
-** File description:
-** exec_double execution
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T13:24:01+02:00
+ */
 
 #include "mysh.h"
 

@@ -1,9 +1,9 @@
-/*
-** EPITECH PROJECT, 2018
-** PSU_my_printf_2018
-** File description:
-** utils
-*/
+/**
+ * @Author: la-montagne
+ * @Date:   2019-07-17T13:17:52+02:00
+ * @Last modified by:   la-montagne
+ * @Last modified time: 2019-07-17T13:59:56+02:00
+ */
 
 #include "../my_printf.h"
 
