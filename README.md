@@ -25,3 +25,5 @@ Description:
         - signal handler
         - var interpretor
         - local variable handler
+
+use make to compile the project.
